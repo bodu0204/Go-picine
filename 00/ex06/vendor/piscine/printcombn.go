@@ -44,4 +44,5 @@ func PrintCombN(n int) {
 		i.out(n)
 		i[n - 1]++
 	}
+	ft.PrintRune('\n')
 }
