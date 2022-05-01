@@ -1,17 +1,10 @@
 package piscine
 
-//func StrRev(s string) string {
-//	var r string
-//
-//	for _, l := range s{
-//		r = string(l) + r
-//	}
-//	return r
-//}
-
 func StrRev(s string) string {
-	for i := 0; i < len(s) / 2;i++{
-		s[i], s[len(s) - 1 - i] = s[len(s) - 1 - i], s[i]
+	var r string
+
+	for _, l := range s{
+		r = string(l) + r
 	}
-	return s
+	return r
 }
